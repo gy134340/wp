@@ -8,15 +8,12 @@
 		resolve: {
 			alias: {
 				jquery: path.resolve(__dirname, 'src/lib/jquery-1.11.1.min.js'),
-				Vue: path.resolve(__dirname, 'src/lib/vue.js'),
-				Vuex: path.resolve(__dirname, 'src/lib/vuex.js'),
-				VueRouter: path.resolve(__dirname, 'src/lib/vue-router.min.js'),
 				axios: path.resolve(__dirname, 'src/lib/axios.min.js')
 			}
 		},
 		entry : {
 			app: './src/app.js',
-			vendors: ['jquery', 'Vue', 'Vuex', 'VueRouter', 'axios']
+			vendors: ['jquery', 'axios']
 		},
 		output: {
 			path: path.resolve(__dirname, 'dist'),

@@ -22,3 +22,5 @@ source-map
 
 开发环境用 cheap-module-eval-source-map，
 生产环境用 cheap-module-source-map
+
+安装 babel-sublime react 正确高亮
